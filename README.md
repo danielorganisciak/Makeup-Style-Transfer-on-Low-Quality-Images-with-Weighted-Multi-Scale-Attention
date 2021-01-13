@@ -1,7 +1,7 @@
 # Makeup Style Transfer on Low Quality Images with Weighted Multi-Scale Attention
-This repository contains the networks and the evaluation code for our [ICPR Paper](http://hubertshum.com/publications/icpr2020makeup/files/icpr2020makeup.pdf). The full code and trained models are not available at this time because we continue to actively use them in our research. 
+This repository contains the networks and the evaluation code for our [ICPR Paper](http://hubertshum.com/publications/icpr2020makeup/files/icpr2020makeup.pdf). The full code and trained models are not released at this time because we continue to actively use them in our research. 
 
-The networks file is uploaded to facilitate understanding of the proposed attention mechanism. To independently re-implement the paper, see [Augmented CycleGAN](https://github.com/aalmah/augmented_cyclegan).
+The networks file contains the code for the proposed multi-scale attention mechanism proposed in this paper. To independently re-implement the full paper, see [Augmented CycleGAN](https://github.com/aalmah/augmented_cyclegan).
 
 The evaluation code requires masks obtained from [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ). We hope this helps the community move towards a standardised comparison metric for Makeup Style Transfer.
 
